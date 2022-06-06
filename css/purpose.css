@@ -1,0 +1,63 @@
+.purpose {
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 200px;
+}
+
+.game{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 27%;
+    padding: 10px;
+
+    border-radius: 30px;
+    background-color: #663a82;
+}
+
+.multiple {
+    display: flex;
+    padding-bottom: 2px;
+    align-items: center;
+}
+
+.purposeH1 {
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+    font-size: larger;
+    margin-right: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.purposeH2 {
+    display: contents;
+    padding-top: 40px;
+}
+
+.purposeIcon {
+    float: left;
+}
+
+.purposeIcon:hover {
+    color: #02ebc0;
+}
+
+
+.learn {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 27%;
+    padding: 10px;
+
+    border-radius: 30px;
+    background-color: #F48200;
+}
+.fun {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 27%;
+    padding: 10px;
+
+    border-radius: 30px;
+    background-color: #F9d342;
+}

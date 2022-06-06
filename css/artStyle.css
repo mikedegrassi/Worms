@@ -1,0 +1,45 @@
+.style {
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 200px;
+}
+
+.stylediv {
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    margin-top: 100px;
+}
+
+.setting {
+    padding: 10px;
+    max-width: 17%;
+    background: #257a46;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.color {
+    padding: 10px;
+    max-width: 17%;
+    background: #257a46;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.pixelArt {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px;
+    max-width: 20%;
+
+    background: #77857ce0;
+}
+
+.arth2 {
+    display: flow-root;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+

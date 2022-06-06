@@ -1,0 +1,72 @@
+.home {
+
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+
+}
+
+.uppertext {
+    width: 70%;
+    height: 50vh;
+
+    position: relative;
+
+    top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.uppertext img {
+
+    border-radius: 30px;
+    background-color: #26282B;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+.homeh1 {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    background-color: rgba(38, 40, 43, 1);
+
+    color: #fff;
+    mix-blend-mode: multiply;
+
+    text-align: center;
+
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+@media (max-width: 1575px){
+    .homeh1 {
+        height: 70%;
+        font-size: 40px;
+    }
+
+    .uppertext img {
+        height: 70%;
+    }
+}
+
+@media (max-width: 1060px){
+    .homeh1 {
+        height: 70%;
+        font-size: 40px;
+    }
+
+    .uppertext img {
+        height: 70%;
+    }
+}

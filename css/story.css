@@ -1,0 +1,21 @@
+.story{
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 180px;
+}
+.storydiv {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50%;
+    border-radius: 30px;
+    background-color: #5F85DB;
+    padding: 15px;
+}
+
+.storylineH2 {
+    display: contents;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    margin-top: 20px;
+}

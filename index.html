@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <link href="css/character.css" rel="stylesheet" type="text/css">
+    <link href="css/story.css" rel="stylesheet" type="text/css">
+    <link href="css/purpose.css" rel="stylesheet" type="text/css">
+    <link href="css/artStyle.css" rel="stylesheet" type="text/css">
+
+
+    <title>Fin</title>
+</head>
+
+<body>
+
+<span id="home"></span>
+
+<nav class="backnav">
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#home">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#character">
+                    <span class="icon">
+                        <ion-icon name="finger-print-sharp"></ion-icon>
+                    </span>
+                    <span class="text">Characters</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#storyline">
+                    <span class="icon">
+                        <ion-icon name="earth-outline"></ion-icon>
+                    </span>
+                    <span class="text">Storyline</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#purpose">
+                    <span class="icon">
+                        <ion-icon name="eyedrop-outline"></ion-icon>
+                    </span>
+                    <span class="text">Purpose</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#art-style">
+                    <span class="icon">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                    </span>
+                    <span class="text">Art-style</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+</nav>
+
+<script>
+    const list = document.querySelectorAll('.list')
+
+    function activeLink() {
+        list.forEach((item) =>
+            item.classList.remove('active'));
+        this.classList.add('active');
+    }
+
+    list.forEach((item) =>
+        item.addEventListener('click', activeLink))
+</script>
+
+
+<main>
+
+    <home class="home">
+        <div class="uppertext">
+            <img src="tools/img/desert.PNG" alt="bgdessert">
+            <h1 class="homeh1">
+                Attack on Worms
+                </br>
+                </br>
+                A game where fun learning is the purpose.
+                </br>
+                Want to know more? Keep scrolling.
+            </h1>
+        </div>
+    </home>
+
+    <section class="character" id="character">
+
+        <header class="subjectH1">
+            <h1>
+                Characters
+            </h1>
+        </header>
+
+        <div class="multipleDiv">
+            <div class="good">
+
+                <img class="finImg" src="tools/img/FinnInstruction.png" alt="fin">
+                <h2 class="normalh2">
+                    Fin (you) is here to save the world with his
+                    big brain. He is able to run, attack and kill all
+                    worms on his path. He is someone who wants to show
+                    what he knows and what he has achieve. That's why
+                    he rewards himself with badges from henchworms and
+                    if he defeats a Groutan he will take one tusk of it.
+                </h2>
+            </div>
+
+            <div class="bad">
+                <img class="wormImg" src="tools/img/worm.PNG" alt="worm">
+                <h2 class="normalh2">
+                    This tinier worms called hecnhworms. I think there is no
+                    explanation needed for this designation. Henchworms are not
+                    the most dangerous, but some people say there are more henchworms
+                    than pigeons. Luckily for you, they only got a brain capacity to
+                    remember one topic of your material.
+                </h2>
+            </div>
+        </div>
+
+        <div class="multipleDiv">
+            <div class="good">
+                <img class="wiseMenImg" src="tools/img/wiseMen.png " alt="wiseMen">
+                <h2 class="normalh2">
+                    He self is too old
+                    to fight in this apocalyps if that's all he wanted.
+                    The "Wise-men" give advice to Fin in
+                    times Fin's vision is not clear. This storyteller
+                    is the reason Fin fights this unexpected apocalyps.
+                </h2>
+            </div>
+
+            <div class="bad">
+                <img class="bossWormImg" src="tools/img/bossWorm.png" alt="bossWorm">
+                <h2 class="normalh2">
+                    Twelve of these monster are now spread around the world searching
+                    for more and more library's to demolish. All started at biggest
+                    source of information, the library of Alexandria in Egypt. Already
+                    61% of the information is kept by these Groutans. Kill them.
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="story" id="storyline">
+
+        <header class="subjectH1">
+            <h1>
+                Storyline
+            </h1>
+        </header>
+
+        <div class="storydiv">
+            <h2 class="storylineH2">
+                A few hundred years ago there was no internet nor computers.
+                The only storage for all the information were books and our brains.
+                Till today scientist are still researching history and not without reason.
+                All religions always said it: “There will come an apocalypse.”
+                And it came but … not as expected.
+                </br></br>Worms came out of the ground and the whole world began to shake.
+                People ran and tried to escape, but no one knew where to go. One strange thing, no one was attacked.
+                Groutans (Giant worms) emerged in Egypt and directly went for the Alexandria Library. It were bookworms.
+                So much information lost that we as humans lost tons of knowledge including knowledge about geography.
+                </br></br>Only you can save the world by outsmarting all Groutans and defeating them with your geography
+                knowledge. This apocalyps is a matter of time. Without humans knowledge many living but also unborn creatures will die.
+                You must know, it will be a long journey with some struggle along the way.
+                Very urgent is not to suffer under those struggles and always aim at another solution.
+                Time is ticking my friend.
+                </br></br>Do you accept the challenge?
+
+            </h2>
+        </div>
+
+    </section>
+
+    <section class="purpose" id="purpose">
+
+        <header class="subjectH1">
+            <h1>
+                Purpose
+            </h1>
+        </header>
+
+        <div class="game">
+            <div class="multiple">
+                <ion-icon class="purposeIcon" name="game-controller-outline" size="large"></ion-icon>
+                <h1 class="purposeH1">Gaming</h1>
+            </div>
+            <h2 class="normalh2">
+                As you might've read in the storyline there are a few bosses you have to
+                defeat in order to save the world. Before you can fight a Groutan you must
+                take down a few of his henchworms who you shouldn't underestimate. For every
+                henchworm you defeat a badge will be given to you by the population. After killing
+                a Groutan you will take one of his tusks as reward.
+            </h2>
+        </div>
+
+        <div class="multipleDiv">
+            <div class="learn">
+                <div class="multiple">
+                    <ion-icon class="purposeIcon" name="library-outline" size="large"></ion-icon>
+                    <h1 class="purposeH1">Learning</h1>
+                </div>
+                <h2 class="normalh2">
+                    Every chapter in your book got their own trial with each one Groutan.
+                    The henchworms consist less subject matter and questions. They
+                    do less damage which mean you can make more mistakes. Groutans can be
+                    compared to exams and do more damage. Your brain is the mightiest weapon
+                    in this battle if you learn your geography.
+                </h2>
+            </div>
+
+            <div class="fun">
+                <div class="multiple">
+                    <ion-icon class="purposeIcon" name="happy-outline" size="large"></ion-icon>
+                    <h1 class="purposeH1">Fun</h1>
+                </div>
+                <h2 class="normalh2">
+                    Yaawwnn... Sorry I heard someone said wrts practice test. Come on people it is
+                    2022 and some are still using wrts. That makes me want to eat my book. By developing
+                    this game we want to achieve an experience far different from all other online
+                    tool experiences. We cannot learn for you but we can try to make learning more bearable.
+                </h2>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="style" id="art-style">
+
+        <header class="subjectH1">
+            <h1>
+                Art-style
+            </h1>
+        </header>
+
+        <div class="stylediv">
+
+            <div class="color">
+                <h2 class="arth2">Setting</h2>
+                <br>
+                <h2 class="normalh2">
+                    The setting is a fallen world with most
+                    of the buildings destroyed due to the earthquakes.
+                    All worms digging and moving like maniacs make the
+                    air rough and dusty.
+                </h2>
+            </div>
+
+            <div class="pixelArt">
+                <h2 class="arth2">Art</h2>
+                <br>
+                <h2 class="normalh2">
+                    Our team chose for a pixel art game.
+                    The focus of this game is not on practicing game
+                    controls but on learning.
+                    Pixel art games are mostly simple to control.
+                    Also is the focus of your brain on the moving parts
+                    in games. That's why only the important things will move.
+                </h2>
+            </div>
+
+            <div class="setting">
+                <h2 class="arth2">Colors</h2>
+                <br>
+                <h2 class="normalh2">
+                    The setting said it all, rough and dusty.
+                    Except for Fin and the Wise-men
+                    this falling world has a murky vibe and isn't
+                    bright-colored at all.
+                    <br>
+                    Maybe ... one day.
+                </h2>
+            </div>
+
+        </div>
+
+        <footer>
+            <p class="footText">
+                © 2021-2022 - made by Carla, Issam, Salma and Mike
+            </p>
+        </footer>
+
+    </section>
+
+
+
+</main>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
+

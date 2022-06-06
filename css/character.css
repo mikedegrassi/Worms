@@ -1,0 +1,66 @@
+.character {
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 200px
+}
+
+.good {
+    position: relative;
+    height: 60%;
+    max-width: 27%;
+    border-radius: 30px;
+    background-color: #0EA2F6;
+
+    padding: 10px;
+}
+
+.finImg {
+    margin-top: 68px;
+
+    width: 30%;
+    height: 30%;
+
+    float: left;
+}
+
+.wiseMenImg {
+    margin-top: 68px;
+
+    width: 30%;
+    height: 30%;
+
+    float: left;
+}
+
+.bad {
+    position: relative;
+    height: 60%;
+    max-width: 27%;
+    border-radius: 30px;
+    background-color: #cf1920;
+
+    padding: 10px;
+}
+
+.wormImg {
+
+    margin-top: 68px;
+
+    width: 30%;
+    height: 30%;
+
+    float: left;
+}
+
+
+.bossWormImg {
+
+    margin-top: 16px;
+
+    width: 30%;
+    height: 60%;
+
+    float: left;
+}
+
+
